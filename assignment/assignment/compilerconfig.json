@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "Css.css",
+    "inputFile": "Css.SCSS"
+  },
+  {
+    "outputFile": "new.css",
+    "inputFile": "new.scss"
+  }
+]

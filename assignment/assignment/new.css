@@ -1,0 +1,240 @@
+﻿*, body, html {
+  font-family: 'Segoe UI'; }
+
+/*#89ABE3;*/
+.nave, .navbar {
+  background-color: #0e285a;
+  color: #FCF6F5;
+  padding: 0.5em; }
+  .nave .navbar-brand, .navbar .navbar-brand {
+    padding-left: 2em;
+    letter-spacing: 2px; }
+  .nave button, .navbar button {
+    border: none;
+    box-shadow: none;
+    color: white;
+    background: transparent; }
+  .nave .stab, .navbar .stab {
+    border: 1px solid #FCF6F5;
+    padding: 0.2em; }
+  .nave h1, .navbar h1 {
+    font-weight: lighter;
+    font-size: 2em;
+    color: white; }
+  .nave .nav, .navbar .nav {
+    margin-right: 1em; }
+  .nave .dropdowm-menu, .navbar .dropdowm-menu {
+    color: white;
+    background-color: transparent; }
+  .nave ul li, .navbar ul li {
+    margin: auto;
+    margin-top: 1em; }
+
+.bg1 {
+  background-image: url("stock-exchange-3087396_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  right: 0; }
+
+.bg2 {
+  background-image: url("money-1160268_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 87%;
+  bottom: 0;
+  position: absolute; }
+
+.wrap {
+  background-color: rgba(68, 117, 220, 0.6);
+  width: 100%;
+  bottom: 0;
+  height: 88%; }
+  .wrap .btn2 {
+    margin-left: 1em;
+    margin-top: 1em;
+    align-content: center;
+    height: 2.5em;
+    border: 2px solid #0e285a;
+    color: #FCF6F5;
+    border-radius: 0;
+    width: 8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background-color: #0e285a; }
+    .wrap .btn2:hover {
+      background-color: #FCF6F5;
+      color: #0e285a;
+      transition-duration: 1s;
+      transition-property: all;
+      transition-timing-function: linear; }
+  .wrap in2 {
+    width: 35%;
+    float: right;
+    right: 0;
+    display: block;
+    height: 100%;
+    border: 1px solid #FCF6F5; }
+    .wrap in2 label {
+      display: block; }
+  .wrap p {
+    margin-bottom: 0.5em; }
+  .wrap .in {
+    width: 60%;
+    float: left;
+    left: 0;
+    height: 100%; }
+  .wrap h1 {
+    color: #FCF6F5;
+    font-size: 2.5em;
+    padding: 1em;
+    font-family: 'Segoe UI';
+    letter-spacing: 1px; }
+  .wrap label, .wrap .lbl {
+    font-size: 1.5em;
+    padding: 1em;
+    padding-top: 0;
+    color: #FCF6F5; }
+  .wrap input, .wrap list {
+    width: 13em;
+    font-size: 1em; }
+
+.val {
+  background-color: rgba(68, 117, 220, 0.05);
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  right: 0; }
+  .val h1 {
+    top: 4em;
+    color: gold;
+    text-shadow: 10px 10px 15px black;
+    font-size: 3.8em;
+    letter-spacing: 3px;
+    font-weight: 100;
+    background-color: rgba(14, 17, 100, 0.5);
+    padding: 0.8em;
+    text-align: right; }
+  .val .btn1 {
+    margin-right: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 8em;
+    height: 2.8em;
+    border: 2px solid #FCF6F5;
+    color: #FCF6F5;
+    border-radius: 0;
+    width: 10em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    background-color: rgba(14, 75, 100, 0.6); }
+    .val .btn1:hover {
+      background-color: rgba(14, 20, 100, 0.8);
+      transition-duration: 1s;
+      transition-property: all;
+      transition-timing-function: linear; }
+  .val .btn2 {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 8em;
+    height: 2.8em;
+    border: 2px solid #0e285a;
+    color: #FCF6F5;
+    border-radius: 0;
+    width: 10em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    background-color: #0e285a; }
+    .val .btn2:hover {
+      background-color: rgba(240, 240, 240, 0.8);
+      color: #0e285a;
+      transition-duration: 1s;
+      transition-property: all;
+      transition-timing-function: linear; }
+
+.foot {
+  padding: 1.1em;
+  letter-spacing: 1px;
+  position: fixed;
+  bottom: 0;
+  font-size: 1.2em;
+  left: 0;
+  right: 0;
+  width: 100%; }
+
+.login {
+  height: 100%;
+  width: 100%; }
+  .login .left {
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url("fine.jpg");
+    color: white;
+    background-size: cover;
+    left: 0px; }
+  .login .right {
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #FCF6F5;
+    color: #0e285a;
+    position: absolute;
+    margin-bottom: 0; }
+    .login .right h2 {
+      font-weight: 100;
+      padding: 0.6em;
+      font-size: 2.5em;
+      letter-spacing: 2px; }
+    .login .right .formf {
+      text-align: left; }
+    .login .right p {
+      margin-left: 2em;
+      padding: 0.9em; }
+    .login .right i {
+      margin-left: 1em; }
+    .login .right .clas {
+      margin-left: 0; }
+    .login .right h1 {
+      padding-top: 1em;
+      text-transform: capitalize;
+      font-size: 3em;
+      font-weight: 100;
+      letter-spacing: 1px; }
+    .login .right .more {
+      width: 18em;
+      font-size: 1.3em; }
+    .login .right input[type='text'], .login .right input[type='date'], .login .right input {
+      margin-left: 2em;
+      border: none;
+      border-bottom: 2px solid #0e285a;
+      border-radius: 1px; }
+      .login .right input[type='text']:focus, .login .right input[type='date']:focus, .login .right input:focus {
+        border-color: none;
+        border-bottom: 2px solid green; }
+    .login .right .btn2 {
+      align-content: center;
+      height: 2.5em;
+      border: 2px solid #0e285a;
+      color: #FCF6F5;
+      border-radius: 0;
+      width: 8em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      background-color: #0e285a; }
+      .login .right .btn2:hover {
+        background-color: #FCF6F5;
+        color: #0e285a;
+        transition-duration: 1s;
+        transition-property: all;
+        transition-timing-function: linear; }

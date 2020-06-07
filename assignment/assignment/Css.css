@@ -1,0 +1,161 @@
+﻿*, body, html {
+  font-family: 'Segoe UI'; }
+
+/*rgb(14,17,100);*/
+.nave, .navbar {
+  background-color: #89ABE3;
+  color: #FCF6F5;
+  padding: 0.5em; }
+  .nave .navbar-brand, .navbar .navbar-brand {
+    padding-left: 2em; }
+  .nave button, .navbar button {
+    border: none;
+    box-shadow: none;
+    color: white;
+    background: transparent; }
+  .nave .stab, .navbar .stab {
+    border: 1px solid #FCF6F5;
+    padding: 0.2em; }
+  .nave h1, .navbar h1 {
+    font-weight: lighter;
+    font-size: 2em;
+    color: white; }
+  .nave .nav, .navbar .nav {
+    margin-right: 1em; }
+  .nave .dropdowm-menu, .navbar .dropdowm-menu {
+    color: white;
+    background-color: transparent; }
+  .nave ul li, .navbar ul li {
+    margin: auto;
+    margin-top: 1em; }
+
+.bg1 {
+  background-image: url("stock-exchange-3087396_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+.val {
+  background-color: rgba(68, 117, 220, 0.05);
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center; }
+  .val .btn1 {
+    margin-right: 0.5em;
+    margin-top: 7em;
+    margin-bottom: 8em;
+    height: 2.8em;
+    border: 2px solid #FCF6F5;
+    color: #FCF6F5;
+    border-radius: 0;
+    width: 10em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    background-color: rgba(14, 75, 100, 0.6); }
+    .val .btn1:hover {
+      background-color: rgba(108, 158, 220, 0.75);
+      transition-duration: 1s;
+      transition-property: all;
+      transition-timing-function: linear; }
+  .val .btn2 {
+    margin-left: 1em;
+    margin-top: 7em;
+    margin-bottom: 8em;
+    height: 2.8em;
+    border: 2px solid #89ABE3;
+    color: #FCF6F5;
+    border-radius: 0;
+    width: 10em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    background-color: #89ABE3; }
+    .val .btn2:hover {
+      background-color: #FCF6F5;
+      color: #89ABE3;
+      transition-duration: 1s;
+      transition-property: all;
+      transition-timing-function: linear; }
+
+.foot {
+  padding: 1.1em;
+  letter-spacing: 1px;
+  position: fixed;
+  bottom: 0;
+  font-size: 1.2em;
+  left: 0;
+  right: 0;
+  width: 100%; }
+
+.login {
+  height: 100%;
+  width: 100%; }
+  .login .left {
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url("photo-1553729459-efe14ef6055d.jpg");
+    color: white;
+    background-size: cover;
+    left: 0px;
+    margin-bottom: 0; }
+  .login .right {
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #FCF6F5;
+    color: #89ABE3;
+    position: absolute;
+    margin-bottom: 0; }
+    .login .right h2 {
+      font-weight: 100;
+      padding: 0.6em;
+      font-size: 2.5em;
+      letter-spacing: 2px; }
+    .login .right .formf {
+      text-align: left; }
+    .login .right p {
+      margin-left: 2em;
+      padding: 1em; }
+    .login .right i {
+      margin-left: 1em; }
+    .login .right h1 {
+      padding-top: 1em;
+      text-transform: capitalize;
+      font-size: 3em;
+      font-weight: 100;
+      letter-spacing: 1px; }
+    .login .right .more {
+      width: 20em;
+      font-size: 1.3em; }
+    .login .right input[type='text'], .login .right input[type='date'], .login .right input {
+      margin-left: 2em;
+      border: none;
+      border-bottom: 2px solid #89ABE3;
+      border-radius: 1px; }
+      .login .right input[type='text']:focus, .login .right input[type='date']:focus, .login .right input:focus {
+        border-color: none;
+        border-bottom: 2px solid green; }
+    .login .right .btn2 {
+      align-content: center;
+      height: 2.5em;
+      border: 2px solid #89ABE3;
+      color: #FCF6F5;
+      border-radius: 0;
+      width: 8em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      background-color: #89ABE3; }
+      .login .right .btn2:hover {
+        background-color: #FCF6F5;
+        color: #89ABE3;
+        transition-duration: 1s;
+        transition-property: all;
+        transition-timing-function: linear; }
